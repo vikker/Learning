@@ -1,0 +1,22 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+table {
+    
+    border-collapse: collapse;
+}
+caption {
+    caption-side: bottom;    
+}
+td {
+    border: lightgray solid 1px; 
+    padding: 10px;
+}
+th {
+    border-bottom: solid 2px;  
+    padding: 10px;
+}

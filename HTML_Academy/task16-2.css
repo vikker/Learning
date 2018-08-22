@@ -1,0 +1,88 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+body {
+width: 280px;
+min-height: 250px;
+padding-top: 50px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 12px;
+font-family: "Arial", sans-serif;
+line-height: 1.2;
+color: #7f8c8d;
+background: #ecf0f1;
+}
+a {
+color: #2980b9;
+text-decoration: none; 
+}
+.post {
+position: relative;
+padding-left: 75px;
+}
+.post-title {
+font-size: 20px;
+color: #2980b9; 
+}
+.post-date {
+position: absolute;
+top: 0;
+left: 0;
+width: 55px;
+height: 35px;
+text-align: center;
+font-size: 15px;
+line-height: 15px;
+font-weight: bold;
+padding-top: 20px;
+background-color: #ffffff;
+border-bottom: 5px solid #bdc3c7; 
+}
+.post-type {
+position: absolute;
+top: 70px;
+left: 0;
+width: 55px;
+height: 55px;
+background-color: #7f8c8d;
+background-image: url("/assets/course14/quotes.png");
+background-repeat: no-repeat;
+background-position: center;
+border-bottom: 5px solid #bdc3c7;
+}
+.post-author {
+margin-top: 5px;
+color: #7f8c8d; 
+}
+.post-stats {
+display: inline-block;
+position: relative;
+margin-top: 5px;
+margin-right: 10px;
+padding-left: 20px;
+}
+.post-stats .icon {
+position: absolute;
+background-image: url("/assets/course14/post-challenge.png");
+width: 15px;
+height: 15px;
+left: 0px;
+}
+.post-stats .icon-tags {
+background-repeat: no-repeat;
+background-position: 0 0;
+}
+.post-stats .icon-comments {
+background-repeat: no-repeat;
+background-position: -20px 0;
+}
+.post-text {
+top: 65px;
+left: 75px;
+width: 165px;
+padding: 10px 15px;
+background-color: #ffffff;
+border-bottom: 5px solid #bdc3c7;
+}
